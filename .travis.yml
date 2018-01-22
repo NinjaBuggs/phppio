@@ -1,0 +1,8 @@
+language: php
+php:
+  - 7.1
+before_script:
+  - pear channel-discover pear.phing.info
+  - pear install phing/phing
+  - phpenv rehash
+  - phing

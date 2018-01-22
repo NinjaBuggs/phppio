@@ -1,0 +1,35 @@
+{
+  "name": "phppio/phppio",
+  "type": "library",
+  "description": "PHP 7 Client for Apache PredictionIO API",
+  "keywords": [
+    "predictionio",
+    "prediction",
+    "web service",
+    "rest",
+    "restful",
+    "recommendation",
+    "tappingstone"
+  ],
+  "homepage": "http://prediction.io",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Aliaksandr Abashyn",
+      "email": "alexandr.abashyn@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "guzzlehttp/guzzle": "^6.1"
+  },
+  "require-dev": {
+    "symfony/class-loader": "~2.3",
+    "phpunit/phpunit": "^4.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "predictionio\\": "src/phppio/"
+    }
+  }
+}
